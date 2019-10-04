@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <appender name="fileAppender" class="ch.qos.logback.core.FileAppender">
-        <file>c:/log/myLogFile.log</file>
+        <file>d:/log/myLogFile.log</file>
         <append>true</append>
         <encoder>
             <pattern>%d [%thread] %-5level  %logger{35} - %msg%n</pattern>
